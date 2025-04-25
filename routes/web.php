@@ -16,6 +16,7 @@ use App\Http\Controllers\SubCategoriasController;
 use App\Http\Controllers\SiteController;
 use App\Http\Controllers\UsuarioController;
 use App\Http\Controllers\VendaController;
+
 use Illuminate\Support\Facades\Route;
 
 Route::get('/site', function () {
