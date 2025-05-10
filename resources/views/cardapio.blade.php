@@ -36,17 +36,36 @@
         </style>
 
     @section('banner')
-        <div class="banner owl-carousel owl-theme">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
 
-            {{-- listando apenas os banners da categoria cardápio --}}
-            @foreach ($infoLoja->banners as $banner)
-                @if ($banner->categoria == 'cardapio')
-                    <div class="img-banner">
-                        <img src="{{ asset($banner->imagem) }}" alt="">
-                    </div>
-                @endif
-            @endforeach
+            <div class="carousel-inner">
+                @foreach ($infoLoja->banners as $banner)
+                    @if ($banner->categoria == 'cardapio')
+                        <div class="carousel-item active">
+                            <img src="{{ asset($banner->imagem) }}" class=" w-100" alt="Imagem promocional lanche">
+                        </div>
+                    @endif
+                @endforeach
+            </div>
 
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     @endsection
 
