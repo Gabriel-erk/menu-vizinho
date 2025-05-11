@@ -166,6 +166,31 @@
 
         </section>
 
+        <section id="sec-cinco" class="bg-primary p-3">
+            <div id="titulos" class="text-center text-secondary">
+                <h5>O que nossos clientes dizem?</h5>
+                <p>Pratos mais vendidos servindo comida deliciosa.</p>
+            </div>
+
+            <div id="feedbacks">
+                <div id="feedback" class="text-center bg-white rounded-2 position-relative">
+                    <div id="img-feedback" class="position-absolute top-0 start-50 translate-middle mb-5">
+                        <img class="img-fluid border border-secondary rounded-circle" src="{{ asset("assets/home/feedback/user_feedback.jpg") }}" alt="Imagem do usuário reponsável por avaliação.">
+                    </div>
+
+                    <div id="info-user-feedback" class="mt-3">
+                        <h6 class="fw-bold text-dark">Davi Fdp</h6>
+                        <p class="text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. quo expedita tempore.</p>
+                    </div>
+
+                    <div id="data-quantidade-feedback">
+                        <p>25/06/2026</p>
+                        <img class="" src="{{ asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg') }}" alt="icone de estrela para avaliação">
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <button class="btn btn-primary">Primário</button>
         <button class="btn btn-secondary">Secundário</button>
         <h1 class="text-dark">Título Escuro</h1>
