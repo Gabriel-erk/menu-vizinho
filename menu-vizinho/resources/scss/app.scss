@@ -12,6 +12,12 @@ $secondary: #F9EED9; // cor secundária
 $dark: #111111;  // cor para títulos
 $light: #333333; // cor para descrições
 
+// Sobrescreve as cores do navbar escuro 
+// ?? para alterar as cores do navbar-dark, é necessário atingir as váriaveis que o controlam, assim, consigo definir a cor que quero para eles
+$navbar-dark-color: $secondary;     // Cor do texto
+
+//não faz muito efeito quando ativo, mas é possível alterar isso também $navbar-dark-bg: $primary;  Cor de fundo do navbar
+
 // !! após sobrescrever as váriaveis, Importa as variáveis depois dos mixins
 @import '@bootstrap/variables';
 
