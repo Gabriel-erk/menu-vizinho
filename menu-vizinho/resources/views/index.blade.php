@@ -8,13 +8,18 @@
 
     <title>Mr.Burger - Sua Lanchonete Local</title>
     @vite(['resources/scss/app.scss', 'resources/js/app.js'])
+    {{-- chamando meu outro arquivo de scss, ele vai ter as principais configs de "css na mão" --}}
+    @vite('resources/scss/main.scss')
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-md bg-primary navbar-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
+                <a class="navbar-brand" href="#">
+                    <h1 class="m-0"><img class="d-block navbar-logo img-fluid"
+                            src="{{ asset('assets/navbar/logo.png') }}" alt="Logo do restaurante Mr.Burger"></h1>
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">

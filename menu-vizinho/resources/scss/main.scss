@@ -1,0 +1,23 @@
+// neste arquivo colocarei todas as configs de css, farei com scss pois ele me dá mais liberdade etc
+
+// chamando minhas fontes
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Poppins:wght@400;500&display=swap');
+
+// fonte principal para títulos
+$headings-font-family: 'Poppins', sans-serif;
+$body-font-family: 'Cabin', sans-serif;
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $headings-font-family;
+}
+
+// fonte para textos menores
+// ! apliquei no body também, pois independente do texto, se não for heading, ele vai ser essa fonte, apenas os elementos acima terão outra fonte
+p, a, span, body {
+    font-family: $body-font-family;
+}
+
+.navbar-logo {
+    max-width: 200px;
+    height: auto;
+}
