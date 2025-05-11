@@ -173,8 +173,8 @@
             </div>
 
             <div id="feedbacks">
-                <div id="feedback" class="text-center bg-white rounded-2 position-relative">
-                    <div id="img-feedback" class="position-absolute top-0 start-50 translate-middle mb-5">
+                <div id="feedback" class="text-center bg-white rounded-2 py-3">
+                    <div id="img-feedback" class="mb-3">
                         <img class="img-fluid border border-secondary rounded-circle" src="{{ asset("assets/home/feedback/user_feedback.jpg") }}" alt="Imagem do usuário reponsável por avaliação.">
                     </div>
 
@@ -184,8 +184,14 @@
                     </div>
 
                     <div id="data-quantidade-feedback">
-                        <p>25/06/2026</p>
-                        <img class="" src="{{ asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg') }}" alt="icone de estrela para avaliação">
+                        <p class="mb-2">25/06/2026</p>
+                        <div id="estrelas" class="d-flex justify-content-center gap-1">
+                            <img src="{{ asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg') }}" alt="icone de estrela para avaliação">
+                            <img src="{{ asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg') }}" alt="icone de estrela para avaliação">
+                            <img src="{{ asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg') }}" alt="icone de estrela para avaliação">
+                            <img src="{{ asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg') }}" alt="icone de estrela para avaliação">
+                            <img src="{{ asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg') }}" alt="icone de estrela para avaliação">
+                        </div>
                     </div>
                 </div>
             </div>
