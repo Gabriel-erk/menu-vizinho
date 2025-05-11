@@ -50,25 +50,91 @@
 
     <main>
 
-        <section id="sec-um" class="container d-flex bg-primary">
+        <section id="sec-um" class="bg-primary p-3">
 
-            <div class="apresentacao_restaurante text-secondary">
-                <h3 class="fw-bold">Nós Convidamos você ao nosso restaurante</h3>
+            <div class="apresentacao_restaurante text-secondary mb-3">
+                <h5 class="fw-bold mb-3">Nós Convidamos você ao nosso restaurante</h5>
                 <p>Na Mr. Burger, a gente acredita que um bom lanche vai além do pão e carne. Usamos ingredientes
                     frescos, receitas especiais e aquele toque artesanal que faz a diferença. Tudo é feito com cuidado e
                     atenção pra que cada mordida seja uma experiência única.
-
-                    Na Mr. Burger, a gente acredita que um bom lanche vai além do pão e carne.</p>
-                <button class="btn btn-secondary">
+                </p>
+                <p>
+                    Na Mr. Burger, a gente acredita que um bom lanche vai além do pão e carne tudo é feito com cuidado e
+                    atenção pra que cada mordida seja uma experiência única.
+                </p>
+                <button class="btn btn-secondary text-primary fw-bold">
                     Explorar Mais
                 </button>
             </div>
 
             <div class="img_restaurante">
-                <img class="img-fluid" src="{{ asset('assets/home/secao_um/img-teste-home.jpg') }}" alt="" srcset="">
+                <img class="img-fluid rounded-2" src="{{ asset('assets/home/secao_um/img-teste-home.jpg') }}"
+                    alt="" srcset="">
             </div>
 
         </section>
+
+        <section id="sec-dois" class="bg-secondary p-3">
+            <div class="texto-sobre-nos-restaurante">
+                <div id="titulos" class="text-dark">
+                    <p class="fw-bold mb-1">
+                        Sobre nós
+                    </p>
+
+                    <h5 class="fw-bold mb-3">
+                        Hambúrgueres feitos com carinho, servidos com sabor de verdade.
+                    </h5>
+                </div>
+
+                <div id="paragrafos" class="text-light">
+                    <p>
+                        Na Mr. Burger, a gente acredita que um bom lanche vai além do pão e carne. Usamos ingredientes
+                        frescos, receitas especiais e aquele toque artesanal que faz a diferença. Tudo é feito com
+                        cuidado e
+                        atenção pra que cada mordida seja uma experiência única.
+                    </p>
+
+                    <p>
+                        Na Mr. Burger, a gente acredita que um bom lanche vai além do pão e carne. Usamos ingredientes
+                        frescos, receitas especiais e aquele toque artesanal que faz a diferença. Tudo é feito com
+                        cuidado e
+                        atenção pra que cada mordida seja uma experiência única.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="img_restaurante_sobre_nos">
+                <img class="img-fluid rounded-2" src="{{ asset('assets/home/sobre_nos/mulher_cozinhando.jpg') }}"
+                    alt="">
+            </div>
+        </section>
+
+        <section id="id-tres" class="bg-primary p-3 text-secondary ">
+            <div id="titulos" class="text-center mb-5">
+                <h5 class="fw-bold">Nossos pratos mais vendidos</h5>
+                <p>Pratos mais vendidos servindo comida deliciosa.</p>
+            </div>
+
+            <div id="mais-vendidos" class="d-flex flex-column align-items-center">
+
+                <div class="text-center w-75 mb-3">
+                        <img class="w-100 rounded-circle" src="{{ asset('assets/home/pratos_populares/hamburger-sec-pratos-populares.jpg') }}" alt="Hambúrger de carne com bacon e cheddar.">
+
+                        <h6 class="mb-1 mt-2 fw-bold">MR.CHIKEN DUPLO</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitararweraawrw.</p>
+                </div>
+
+                <div class="text-center w-75 mb-3">
+                        <img class="w-100 rounded-circle" src="{{ asset('assets/home/pratos_populares/hamburger-sec-pratos-populares.jpg') }}" alt="Hambúrger de carne com bacon e cheddar.">
+
+                        <h6 class="mb-1 mt-2 fw-bold">MR.CHIKEN DUPLO</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitararweraawrw.</p>
+                </div>
+
+            </div>
+        </section>
+
         <button class="btn btn-primary">Primário</button>
         <button class="btn btn-secondary">Secundário</button>
         <h1 class="text-dark">Título Escuro</h1>
