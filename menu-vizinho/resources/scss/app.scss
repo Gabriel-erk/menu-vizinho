@@ -1,5 +1,19 @@
-// Incluindo as variáveis personalizadas e o Bootstrap
-@use "custom";
+// !! passos necessários em ordem para realizar a alteração de váriaveis do bootstrap
 
-// Incluindo o Bootstrap usando o sistema @use
-@use "bootstrap" as *;
+// !! primeiro, Importa as funções necessárias do Bootstrap
+@import '@bootstrap/functions';
+
+// !! Depois Importa os mixins para que possam ser usados nas variáveis
+@import '@bootstrap/mixins';
+
+// Agora você pode sobrescrever as variáveis
+$primary: #8C6342;  // cor primária
+$secondary: #F9EED9; // cor secundária
+$dark: #111111;  // cor para títulos
+$light: #333333; // cor para descrições
+
+// !! após sobrescrever as váriaveis, Importa as variáveis depois dos mixins
+@import '@bootstrap/variables';
+
+// Finalmente, importa o restante do Bootstrap
+@import '@bootstrap/bootstrap';
