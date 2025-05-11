@@ -110,7 +110,7 @@
             </div>
         </section>
 
-        <section id="id-tres" class="bg-primary p-3 text-secondary ">
+        <section id="sec-tres" class="bg-primary p-3 text-secondary ">
             <div id="titulos" class="text-center mb-5">
                 <h5 class="fw-bold">Nossos pratos mais vendidos</h5>
                 <p>Pratos mais vendidos servindo comida deliciosa.</p>
@@ -132,7 +132,38 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitararweraawrw.</p>
                 </div>
 
+                <div class="text-center w-75 mb-3">
+                        <img class="w-100 rounded-circle" src="{{ asset('assets/home/pratos_populares/hamburger-sec-pratos-populares.jpg') }}" alt="Hambúrger de carne com bacon e cheddar.">
+
+                        <h6 class="mb-1 mt-2 fw-bold">MR.CHIKEN DUPLO</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitararweraawrw.</p>
+                </div>
+
             </div>
+
+            <div class="text-center">
+                <button type="button" class="btn btn-outline-secondary">Ver mais</button>
+            </div>
+
+        </section>
+
+        <section id="sec-quatro" class="bg-secondary p-3">
+             <div id="img-sec-quatro" class="mb-3">
+                <img class="img-fluid rounded-2"src="{{ asset('assets/home/secao_bonus/comidas-secao-bonus.jpg') }}" alt="Prato com comidas diversas e saborosas">
+            </div>
+
+            <div id="info-sec-quatro">
+                <h5 class="fw-bold text-dark">Comida saudável e fresca para você</h5>
+                <p class="text-light">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae corrupti quos quidem ipsam quisquam facere officiis deserunt dolorem, exercitationem ipsum obcaecati perspiciatis, eos molestiae corporis, doloribus laborum eaque sint id.
+                </p>
+                <p class="text-light">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae corrupti quos quidem ipsam quisquam facere officiis deserunt dolorem, exercitationem ipsum obcaecati perspiciatis, eos molestiae corporis, doloribus laborum eaque sint id.
+                </p>
+
+                <button class="btn btn-primary">Saber Mais</button>
+            </div>
+
         </section>
 
         <button class="btn btn-primary">Primário</button>
