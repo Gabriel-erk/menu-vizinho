@@ -278,16 +278,48 @@
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
 
         </section>
 
-        <button class="btn btn-primary">Primário</button>
-        <button class="btn btn-secondary">Secundário</button>
-        <h1 class="text-dark">Título Escuro</h1>
-        <p class="text-light">Descrição Clara</p>
+        <footer class="p-3 d-flex flex-column gap-3 bg-dark">
+            <div id="info-rodape">
+                <h5 class="text-white">INFORMAÇÕES</h5>
+                <ul class="list-unstyled d-flex flex-column gap-2">
+                    <li><a href="#" class="text-decoration-none text-white">Sobre nós</a></li>
+                    <li><a href="#" class="text-decoration-none text-white">Contato</a></li>
+                    <li><a href="#" class="text-decoration-none text-white">Descontos</a></li>
+                    <li><a href="#" class="text-decoration-none text-white">Política e privacidade</a></li>
+                </ul>
+            </div>
+
+            <div id="info-rodape">
+                <h5 class="text-white">LINKS ÚTEIS</h5>
+                <ul class="list-unstyled d-flex flex-column gap-2">
+                    <li><a href="#" class="text-decoration-none text-white">Home</a></li>
+                    <li><a href="#" class="text-decoration-none text-white">Menu</a></li>
+                    <li><a href="#" class="text-decoration-none text-white">Cupons</a></li>
+                    <li><a href="#" class="text-decoration-none text-white">Área do usuário</a></li>
+                </ul>
+            </div>
+
+            <div id="info-rodape">
+                <h5 class="text-white">BAIXE NOSSO APP</h5>
+                <ul class="list-unstyled d-flex flex-column gap-2">
+                    <li><a href="#" class="text-decoration-none text-white">Lorem ipsum dolor amet uljulu usulmanuaunuro aoruaru aouraruoaur.</a></li>
+
+                    <li><a href="#" class="text-decoration-none text-white">Lorem ipsum dolor amet uljulu usulmanuaunuro aoruaru aouraruoaur.</a></li>
+                    
+                    <li id="icones-dowload" class="d-flex gap-2">
+                        <img src="{{ asset('assets/home/rodape/Portuguese-Brazil-bagde-google-play.svg') }}">
+                        <img src="{{ asset('assets/home/rodape/dowload_app-store.svg') }}">
+                    </li>
+                    
+                </ul>
+            </div>
+        </footer>
     </main>
 </body>
 
