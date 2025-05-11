@@ -119,24 +119,30 @@
             <div id="mais-vendidos" class="d-flex flex-column align-items-center">
 
                 <div class="text-center w-75 mb-3">
-                        <img class="w-100 rounded-circle" src="{{ asset('assets/home/pratos_populares/hamburger-sec-pratos-populares.jpg') }}" alt="Hambúrger de carne com bacon e cheddar.">
+                    <img class="w-100 rounded-circle"
+                        src="{{ asset('assets/home/pratos_populares/hamburger-sec-pratos-populares.jpg') }}"
+                        alt="Hambúrger de carne com bacon e cheddar.">
 
-                        <h6 class="mb-1 mt-2 fw-bold">MR.CHIKEN DUPLO</h6>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitararweraawrw.</p>
+                    <h6 class="mb-1 mt-2 fw-bold">MR.CHIKEN DUPLO</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitararweraawrw.</p>
                 </div>
 
                 <div class="text-center w-75 mb-3">
-                        <img class="w-100 rounded-circle" src="{{ asset('assets/home/pratos_populares/hamburger-sec-pratos-populares.jpg') }}" alt="Hambúrger de carne com bacon e cheddar.">
+                    <img class="w-100 rounded-circle"
+                        src="{{ asset('assets/home/pratos_populares/hamburger-sec-pratos-populares.jpg') }}"
+                        alt="Hambúrger de carne com bacon e cheddar.">
 
-                        <h6 class="mb-1 mt-2 fw-bold">MR.CHIKEN DUPLO</h6>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitararweraawrw.</p>
+                    <h6 class="mb-1 mt-2 fw-bold">MR.CHIKEN DUPLO</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitararweraawrw.</p>
                 </div>
 
                 <div class="text-center w-75 mb-3">
-                        <img class="w-100 rounded-circle" src="{{ asset('assets/home/pratos_populares/hamburger-sec-pratos-populares.jpg') }}" alt="Hambúrger de carne com bacon e cheddar.">
+                    <img class="w-100 rounded-circle"
+                        src="{{ asset('assets/home/pratos_populares/hamburger-sec-pratos-populares.jpg') }}"
+                        alt="Hambúrger de carne com bacon e cheddar.">
 
-                        <h6 class="mb-1 mt-2 fw-bold">MR.CHIKEN DUPLO</h6>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitararweraawrw.</p>
+                    <h6 class="mb-1 mt-2 fw-bold">MR.CHIKEN DUPLO</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitararweraawrw.</p>
                 </div>
 
             </div>
@@ -148,17 +154,22 @@
         </section>
 
         <section id="sec-quatro" class="bg-secondary p-3">
-             <div id="img-sec-quatro" class="mb-3">
-                <img class="img-fluid rounded-2"src="{{ asset('assets/home/secao_bonus/comidas-secao-bonus.jpg') }}" alt="Prato com comidas diversas e saborosas">
+            <div id="img-sec-quatro" class="mb-3">
+                <img class="img-fluid rounded-2"src="{{ asset('assets/home/secao_bonus/comidas-secao-bonus.jpg') }}"
+                    alt="Prato com comidas diversas e saborosas">
             </div>
 
             <div id="info-sec-quatro">
                 <h5 class="fw-bold text-dark">Comida saudável e fresca para você</h5>
                 <p class="text-light">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae corrupti quos quidem ipsam quisquam facere officiis deserunt dolorem, exercitationem ipsum obcaecati perspiciatis, eos molestiae corporis, doloribus laborum eaque sint id.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae corrupti quos quidem ipsam
+                    quisquam facere officiis deserunt dolorem, exercitationem ipsum obcaecati perspiciatis, eos
+                    molestiae corporis, doloribus laborum eaque sint id.
                 </p>
                 <p class="text-light">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae corrupti quos quidem ipsam quisquam facere officiis deserunt dolorem, exercitationem ipsum obcaecati perspiciatis, eos molestiae corporis, doloribus laborum eaque sint id.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae corrupti quos quidem ipsam
+                    quisquam facere officiis deserunt dolorem, exercitationem ipsum obcaecati perspiciatis, eos
+                    molestiae corporis, doloribus laborum eaque sint id.
                 </p>
 
                 <button class="btn btn-primary">Saber Mais</button>
@@ -172,29 +183,104 @@
                 <p>Pratos mais vendidos servindo comida deliciosa.</p>
             </div>
 
-            <div id="feedbacks">
-                <div id="feedback" class="text-center bg-white rounded-2 py-3">
-                    <div id="img-feedback" class="mb-3">
-                        <img class="img-fluid border border-secondary rounded-circle" src="{{ asset("assets/home/feedback/user_feedback.jpg") }}" alt="Imagem do usuário reponsável por avaliação.">
-                    </div>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div id="feedbacks" class="carousel-inner">
+                    <div class="carousel-item active text-center bg-white rounded-2 py-3 ">
+                        <div id="img-feedback" class="mb-3">
+                            <img class="img-fluid border border-secondary rounded-circle"
+                                src="{{ asset('assets/home/feedback/user_feedback.jpg') }}"
+                                alt="Imagem do usuário reponsável por avaliação.">
+                        </div>
 
-                    <div id="info-user-feedback" class="mt-3">
-                        <h6 class="fw-bold text-dark">Davi Fdp</h6>
-                        <p class="text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. quo expedita tempore.</p>
-                    </div>
+                        <div id="info-user-feedback" class="mt-3">
+                            <h6 class="fw-bold text-dark">Davi Fdp</h6>
+                            <p class="text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. quo
+                                expedita
+                                tempore.</p>
+                        </div>
 
-                    <div id="data-quantidade-feedback">
-                        <p class="mb-2">25/06/2026</p>
-                        <div id="estrelas" class="d-flex justify-content-center gap-1">
-                            <img src="{{ asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg') }}" alt="icone de estrela para avaliação">
-                            <img src="{{ asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg') }}" alt="icone de estrela para avaliação">
-                            <img src="{{ asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg') }}" alt="icone de estrela para avaliação">
-                            <img src="{{ asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg') }}" alt="icone de estrela para avaliação">
-                            <img src="{{ asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg') }}" alt="icone de estrela para avaliação">
+                        <div id="data-quantidade-feedback">
+                            <p class="mb-2">25/06/2026</p>
+                            <div id="estrelas" class="d-flex justify-content-center gap-1">
+                                <img src="{{ asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg') }}"
+                                    alt="icone de estrela para avaliação">
+                                <img src="{{ asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg') }}"
+                                    alt="icone de estrela para avaliação">
+                                <img src="{{ asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg') }}"
+                                    alt="icone de estrela para avaliação">
+                                <img src="{{ asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg') }}"
+                                    alt="icone de estrela para avaliação">
+                                <img src="{{ asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg') }}"
+                                    alt="icone de estrela para avaliação">
+                            </div>
                         </div>
                     </div>
+
+                    <div class="carousel-item text-center bg-white rounded-2 py-3 ">
+                        <div id="img-feedback" class="mb-3">
+                            <img class="img-fluid border border-secondary rounded-circle"
+                                src="{{ asset('assets/home/feedback/user_feedback.jpg') }}"
+                                alt="Imagem do usuário reponsável por avaliação.">
+                        </div>
+
+                        <div id="info-user-feedback" class="mt-3">
+                            <h6 class="fw-bold text-dark">Davi Tchola</h6>
+                            <p class="text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. quo
+                                expedita
+                                tempore.</p>
+                        </div>
+
+                        <div id="data-quantidade-feedback">
+                            <p class="mb-2">25/06/2026</p>
+                            <div id="estrelas" class="d-flex justify-content-center gap-1">
+                                <img src="{{ asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg') }}"
+                                    alt="icone de estrela para avaliação">
+                                <img src="{{ asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg') }}"
+                                    alt="icone de estrela para avaliação">
+                                <img src="{{ asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg') }}"
+                                    alt="icone de estrela para avaliação">
+                                <img src="{{ asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg') }}"
+                                    alt="icone de estrela para avaliação">
+                                <img src="{{ asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg') }}"
+                                    alt="icone de estrela para avaliação">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item text-center bg-white rounded-2 py-3 ">
+                        <div id="img-feedback" class="mb-3">
+                            <img class="img-fluid border border-secondary rounded-circle"
+                                src="{{ asset('assets/home/feedback/user_feedback.jpg') }}"
+                                alt="Imagem do usuário reponsável por avaliação.">
+                        </div>
+
+                        <div id="info-user-feedback" class="mt-3">
+                            <h6 class="fw-bold text-dark">Davi Engole Tudo</h6>
+                            <p class="text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. quo
+                                expedita
+                                tempore.</p>
+                        </div>
+
+                        <div id="data-quantidade-feedback">
+                            <p class="mb-2">25/06/2026</p>
+                            <div id="estrelas" class="d-flex justify-content-center gap-1">
+                                <img src="{{ asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg') }}"
+                                    alt="icone de estrela para avaliação">
+                                <img src="{{ asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg') }}"
+                                    alt="icone de estrela para avaliação">
+                                <img src="{{ asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg') }}"
+                                    alt="icone de estrela para avaliação">
+                                <img src="{{ asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg') }}"
+                                    alt="icone de estrela para avaliação">
+                                <img src="{{ asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg') }}"
+                                    alt="icone de estrela para avaliação">
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
+
         </section>
 
         <button class="btn btn-primary">Primário</button>
