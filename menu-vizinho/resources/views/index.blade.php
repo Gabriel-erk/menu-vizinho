@@ -184,7 +184,8 @@
             </div>
 
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                <div id="feedbacks" class="carousel-inner">
+                {{-- flex + gap apenas para dar uma distânciada pois estavam muito colados durante as transições --}}
+                <div class="carousel-inner d-flex gap-3">
                     <div class="carousel-item active text-center bg-white rounded-2 py-3 ">
                         <div id="img-feedback" class="mb-3">
                             <img class="img-fluid border border-secondary rounded-circle"
