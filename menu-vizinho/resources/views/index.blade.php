@@ -55,5 +55,10 @@
         </nav>
     </header>
 </body>
+<button class="btn btn-primary">Primário</button>
+<button class="btn btn-secondary">Secundário</button>
+<h1 class="text-dark">Título Escuro</h1>
+<p class="text-light">Descrição Clara</p>
+
 
 </html>
