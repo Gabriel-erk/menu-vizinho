@@ -1,2 +1,5 @@
-@import "_custom";  // Onde você sobrescreve as variáveis
-@import "bootstrap" ; // agora o bootstrap usa minhas váriaveis
+// Incluindo as variáveis personalizadas e o Bootstrap
+@use "custom";
+
+// Incluindo o Bootstrap usando o sistema @use
+@use "bootstrap" as *;
