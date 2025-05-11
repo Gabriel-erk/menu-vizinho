@@ -47,11 +47,35 @@
             </div>
         </nav>
     </header>
+
+    <main>
+
+        <section id="sec-um" class="container d-flex bg-primary">
+
+            <div class="apresentacao_restaurante text-secondary">
+                <h3 class="fw-bold">Nós Convidamos você ao nosso restaurante</h3>
+                <p>Na Mr. Burger, a gente acredita que um bom lanche vai além do pão e carne. Usamos ingredientes
+                    frescos, receitas especiais e aquele toque artesanal que faz a diferença. Tudo é feito com cuidado e
+                    atenção pra que cada mordida seja uma experiência única.
+
+                    Na Mr. Burger, a gente acredita que um bom lanche vai além do pão e carne.</p>
+                <button class="btn btn-secondary">
+                    Explorar Mais
+                </button>
+            </div>
+
+            <div class="img_restaurante">
+                <img class="img-fluid" src="{{ asset('assets/home/secao_um/img-teste-home.jpg') }}" alt="" srcset="">
+            </div>
+
+        </section>
+        <button class="btn btn-primary">Primário</button>
+        <button class="btn btn-secondary">Secundário</button>
+        <h1 class="text-dark">Título Escuro</h1>
+        <p class="text-light">Descrição Clara</p>
+    </main>
 </body>
-<button class="btn btn-primary">Primário</button>
-<button class="btn btn-secondary">Secundário</button>
-<h1 class="text-dark">Título Escuro</h1>
-<p class="text-light">Descrição Clara</p>
+
 
 
 </html>
