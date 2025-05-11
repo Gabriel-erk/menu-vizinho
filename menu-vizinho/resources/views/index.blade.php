@@ -87,15 +87,6 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitararweraawrw.</p>
             </div>
 
-            <div class="text-center w-75 mb-3">
-                <img class="w-100 rounded-circle"
-                    src="{{ asset('assets/home/pratos_populares/hamburger-sec-pratos-populares.jpg') }}"
-                    alt="Hambúrger de carne com bacon e cheddar.">
-
-                <h6 class="mb-1 mt-2 fw-bold">MR.CHIKEN DUPLO</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitararweraawrw.</p>
-            </div>
-
         </div>
 
         <div class="text-center">
@@ -137,9 +128,9 @@
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             {{-- flex + gap apenas para dar uma distânciada pois estavam muito colados durante as transições --}}
             <div class="carousel-inner d-flex gap-3">
-                <div class="carousel-item active text-center bg-white rounded-2 py-3 ">
+                <div class="carousel-item active text-center bg-white rounded-2 py-3 shadow">
                     <div id="img-feedback" class="mb-3">
-                        <img class="img-fluid border border-secondary rounded-circle"
+                        <img class="img-fluid border border-5 border-secondary rounded-circle"
                             src="{{ asset('assets/home/feedback/user_feedback.jpg') }}"
                             alt="Imagem do usuário reponsável por avaliação.">
                     </div>
@@ -168,15 +159,15 @@
                     </div>
                 </div>
 
-                <div class="carousel-item text-center bg-white rounded-2 py-3 ">
+                <div class="carousel-item text-center bg-white rounded-2 py-3 shadow">
                     <div id="img-feedback" class="mb-3">
-                        <img class="img-fluid border border-secondary rounded-circle"
+                        <img class="img-fluid border border-5 border-secondary rounded-circle"
                             src="{{ asset('assets/home/feedback/user_feedback.jpg') }}"
                             alt="Imagem do usuário reponsável por avaliação.">
                     </div>
 
                     <div id="info-user-feedback" class="mt-3">
-                        <h6 class="fw-bold text-dark">Davi Tchola</h6>
+                        <h6 class="fw-bold text-dark">Davi Fdp</h6>
                         <p class="text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. quo
                             expedita
                             tempore.</p>
@@ -199,15 +190,15 @@
                     </div>
                 </div>
 
-                <div class="carousel-item text-center bg-white rounded-2 py-3 ">
+                <div class="carousel-item text-center bg-white rounded-2 py-3 shadow">
                     <div id="img-feedback" class="mb-3">
-                        <img class="img-fluid border border-secondary rounded-circle"
+                        <img class="img-fluid border border-5 border-secondary rounded-circle"
                             src="{{ asset('assets/home/feedback/user_feedback.jpg') }}"
                             alt="Imagem do usuário reponsável por avaliação.">
                     </div>
 
                     <div id="info-user-feedback" class="mt-3">
-                        <h6 class="fw-bold text-dark">Davi Engole Tudo</h6>
+                        <h6 class="fw-bold text-dark">Davi Fdp</h6>
                         <p class="text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. quo
                             expedita
                             tempore.</p>
