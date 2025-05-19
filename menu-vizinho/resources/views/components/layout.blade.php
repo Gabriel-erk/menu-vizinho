@@ -8,8 +8,6 @@
 
     <title>{{ $title }}</title>
     @vite(['resources/scss/app.scss', 'resources/js/app.js'])
-    {{-- chamando meu outro arquivo de scss, ele vai ter as principais configs de "css na mão" --}}
-    @vite('resources/scss/main.scss')
 </head>
 
 <body>

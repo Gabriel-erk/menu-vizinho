@@ -5,6 +5,10 @@
 
 // !! Depois Importa os mixins para que possam ser usados nas variáveis
 @import '@bootstrap/mixins';
+// carregando o main, ele carrega as config das tipografias, aplica nas tag html, e estiliza algumas tags da navbar e rodapé
+@import "partials/main";
+// chamando o scss da home já aqui, pois o app.scss eu chamo em todos os blade da minha página
+@import "partials/home";
 
 // Agora você pode sobrescrever as variáveis
 $primary: #8C6342;  // cor primária

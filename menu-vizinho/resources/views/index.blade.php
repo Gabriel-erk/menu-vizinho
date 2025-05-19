@@ -1,5 +1,4 @@
 <x-layout title="Mr.Burger - Sua Lanchonete Local!">
-    @vite('resources/scss/partials/_home.scss')
     
     <section id="sec-um" class="bg-primary p-3">
 
