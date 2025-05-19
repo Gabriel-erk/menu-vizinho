@@ -36,11 +36,46 @@
         </div>
 
         <section class="pt-3">
-            <h2 class="text-primary">Lanches mais pedidos</h2>
+            <h2 class="text-primary mb-3">Lanches mais pedidos</h2>
 
-            <div>
-                <div class="card mt-3 shadow-sm" style="width: 18rem;">
-                    <img src="{{ asset('assets/cardapio/produtos/hamburger_cardapio.png') }}" alt="">
+            {{-- mx-auto para centralizar os elementos e descola-los da borda --}}
+            <div class="row g-5 mx-auto">
+                <div class="card shadow-sm col-12 col-md-6 col-lg-4" >
+                    <img class="img-fluid" src="{{ asset('assets/cardapio/produtos/hamburger_cardapio.png') }}" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">Mr.King Duplo</h5>
+                        <p class="card-text text-light fw-medium">loreom aoeuramue rueamrueu ramrusjerua.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="text-light fw-medium">R$ 40,99</span>
+                            <button type="button"
+                                class="btn btn-primary rounded-circle p-1 d-flex align-items-center justify-content-center">
+                                <img class="fs-1"
+                                    src="{{ asset('assets/cardapio/produtos/icones/add_carrinho.svg') }}"
+                                    alt="Adicionar ao Carrinho">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card shadow-sm col-12 col-md-6 col-lg-4" >
+                    <img class="img-fluid" src="{{ asset('assets/cardapio/produtos/hamburger_cardapio.png') }}" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">Mr.King Duplo</h5>
+                        <p class="card-text text-light fw-medium">loreom aoeuramue rueamrueu ramrusjerua.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="text-light fw-medium">R$ 40,99</span>
+                            <button type="button"
+                                class="btn btn-primary rounded-circle p-1 d-flex align-items-center justify-content-center">
+                                <img class="fs-1"
+                                    src="{{ asset('assets/cardapio/produtos/icones/add_carrinho.svg') }}"
+                                    alt="Adicionar ao Carrinho">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card shadow-sm col-12 col-md-6 col-lg-4" >
+                    <img class="img-fluid" src="{{ asset('assets/cardapio/produtos/hamburger_cardapio.png') }}" alt="">
                     <div class="card-body">
                         <h5 class="card-title text-primary">Mr.King Duplo</h5>
                         <p class="card-text text-light fw-medium">loreom aoeuramue rueamrueu ramrusjerua.</p>

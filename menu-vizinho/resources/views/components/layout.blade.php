@@ -64,8 +64,8 @@
         <div id="info-rodape">
             <h5 class="text-white">LINKS ÚTEIS</h5>
             <ul class="list-unstyled d-flex flex-column gap-2">
-                <li><a href="#" class="text-decoration-none text-white">Home</a></li>
-                <li><a href="#" class="text-decoration-none text-white">Menu</a></li>
+                <li><a href="{{ route('home') }}" class="text-decoration-none text-white">Home</a></li>
+                <li><a href="{{ route('cardapio') }}" class="text-decoration-none text-white">Menu</a></li>
                 <li><a href="#" class="text-decoration-none text-white">Cupons</a></li>
                 <li><a href="#" class="text-decoration-none text-white">Área do usuário</a></li>
             </ul>
