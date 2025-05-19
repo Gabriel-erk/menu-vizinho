@@ -50,7 +50,7 @@
         {{ $slot }}
     </main>
 
-    <footer class="p-3 bg-dark">
+    <footer class="p-3 py-lg-5 bg-dark">
         <div class="container d-flex flex-column flex-lg-row justify-content-lg-between gap-3 ">
 
             <div id="info-rodape">
@@ -76,11 +76,12 @@
             <div id="info-rodape">
                 <h5 class="text-white">BAIXE NOSSO APP</h5>
                 <ul class="list-unstyled d-flex flex-column gap-2">
-                    <li><a href="#" class="text-decoration-none text-white">Lorem ipsum dolor amet uljulu
-                            usulmanuaunuro aoruaru aouraruoaur.</a></li>
+                    <li><a href="#" class="text-decoration-none text-white">Explore nosso cardápio completo onde
+                            estiver.
+                        </a></li>
 
-                    <li><a href="#" class="text-decoration-none text-white">Lorem ipsum dolor amet uljulu
-                            usulmanuaunuro aoruaru aouraruoaur.</a></li>
+                    <li><a href="#" class="text-decoration-none text-white">Receba promoções exclusivas
+                            diretamente no seu celular.</a></li>
 
                     <li id="icones-dowload" class="d-flex gap-2">
                         <img src="{{ asset('assets/home/rodape/Portuguese-Brazil-bagde-google-play.svg') }}">
