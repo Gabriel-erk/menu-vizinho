@@ -26,7 +26,6 @@
         </button>
     </div>
 
-
     <div class="container">
         <div class="d-flex gap-2 mt-3">
             {{-- não precisa ser necessariamente um "button" para usar as classes btn btn-outline-primary etc. --}}

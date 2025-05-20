@@ -1,6 +1,6 @@
 <x-layout title="Mr.Burger - Sua Lanchonete Local!">
     
-    <section id="sec-um" class="bg-primary p-3">
+    <section id="sec-um" class="bg-primary p-3 d-lg-flex gap-lg-3">
 
         <div class="apresentacao_restaurante text-secondary mb-3">
             <h5 class="fw-bold mb-3">Nós Convidamos você ao nosso restaurante</h5>
@@ -18,13 +18,12 @@
         </div>
 
         <div class="img_restaurante">
-            <img class="img-fluid rounded-2" src="{{ asset('assets/home/secao_um/img-teste-home.jpg') }}" alt=""
-                srcset="">
+            <img class="img-fluid rounded-2" src="{{ asset('assets/home/secao_um/img-teste-home.jpg') }}" alt="">
         </div>
 
     </section>
 
-    <section id="sec-dois" class="bg-secondary p-3">
+    <section id="sec-dois" class="bg-secondary p-3 d-lg-flex gap-lg-3">
         <div class="texto-sobre-nos-restaurante">
             <div id="titulos" class="text-dark">
                 <p class="fw-bold mb-1">
@@ -50,8 +49,15 @@
                     cuidado e
                     atenção pra que cada mordida seja uma experiência única.
                 </p>
-            </div>
 
+                <p class="d-none d-lg-block">
+                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+
+                <p class="d-none d-lg-block">
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                </p>
+            </div>
         </div>
 
         <div class="img_restaurante_sobre_nos">
@@ -66,10 +72,10 @@
             <p>Pratos mais vendidos servindo comida deliciosa.</p>
         </div>
 
-        <div id="mais-vendidos" class="d-flex flex-column align-items-center">
+        <div id="mais-vendidos" class="d-flex flex-column flex-lg-row align-items-center">
 
             <div class="text-center w-75 mb-3">
-                <img class="w-100 rounded-circle"
+                <img class="img-fluid rounded-circle"
                     src="{{ asset('assets/home/pratos_populares/hamburger-sec-pratos-populares.jpg') }}"
                     alt="Hambúrger de carne com bacon e cheddar.">
 
@@ -94,7 +100,7 @@
 
     </section>
 
-    <section id="sec-quatro" class="bg-secondary p-3">
+    <section id="sec-quatro" class="bg-secondary p-3 d-lg-flex gap-lg-3">
         <div id="img-sec-quatro" class="mb-3">
             <img class="img-fluid rounded-2"src="{{ asset('assets/home/secao_bonus/comidas-secao-bonus.jpg') }}"
                 alt="Prato com comidas diversas e saborosas">
