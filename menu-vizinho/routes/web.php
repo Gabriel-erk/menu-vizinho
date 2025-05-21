@@ -12,3 +12,7 @@ Route::get(
         return view('menu');
     }
 )->name('cardapio');
+
+Route::get('/cardapio/produto', function () {
+    return view('product');
+})->name('produto');

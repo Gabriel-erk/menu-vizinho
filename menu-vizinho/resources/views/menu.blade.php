@@ -41,9 +41,11 @@
             <div class="row mx-auto">
                 {{-- cada card fica dentro de uma coluna, não o card vira uma coluna --}}
                 <div class="col-12 col-md-6 col-lg-4 pb-4">
-                    <div class="card shadow-sm ">
-                        <img class="img-fluid" src="{{ asset('assets/cardapio/produtos/hamburger_cardapio.png') }}"
-                            alt="">
+                    <div class="card shadow-sm">
+                        <a href="{{ route('produto') }}">
+                            <img class="img-fluid" src="{{ asset('assets/cardapio/produtos/hamburger_cardapio.png') }}"
+                                alt="Imagem do produto MR.KING DUPLO">
+                        </a>
                         <div class="card-body">
                             <h5 class="card-title text-primary">Mr.King Duplo</h5>
                             <p class="card-text text-light fw-medium">loreom aoeuramue rueamrueu ramrusjerua.</p>
