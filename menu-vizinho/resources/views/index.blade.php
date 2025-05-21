@@ -12,7 +12,7 @@
                 Na Mr. Burger, a gente acredita que um bom lanche vai além do pão e carne tudo é feito com cuidado e
                 atenção pra que cada mordida seja uma experiência única.
             </p>
-            <button class="btn btn-secondary text-primary fw-bold">
+            <button class="btn btn-secondary text-primary fw-medium">
                 Explorar Mais
             </button>
         </div>
@@ -79,8 +79,8 @@
                     src="{{ asset('assets/home/pratos_populares/hamburger-sec-pratos-populares.jpg') }}"
                     alt="Hambúrger de carne com bacon e cheddar.">
 
-                <h6 class="mb-1 mt-2 fw-bold">MR.CHIKEN DUPLO</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitararweraawrw.</p>
+                <p class="mb-1 mt-2 fw-bold">MR.CHIKEN DUPLO</p>
+                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elitararweraawrw.</span>
             </div>
 
             <div class="text-center w-75 mb-3">
@@ -88,8 +88,8 @@
                     src="{{ asset('assets/home/pratos_populares/hamburger-sec-pratos-populares.jpg') }}"
                     alt="Hambúrger de carne com bacon e cheddar.">
 
-                <h6 class="mb-1 mt-2 fw-bold">MR.CHIKEN DUPLO</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitararweraawrw.</p>
+                <p class="mb-1 mt-2 fw-bold">MR.CHIKEN DUPLO</p>
+                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elitararweraawrw.</span>
             </div>
 
         </div>
