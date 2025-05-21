@@ -7,6 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>{{ $title }}</title>
+    {{-- chamando minhas fontes --}}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Poppins:wght@400;500&display=swap"
+        rel="stylesheet">
     @vite(['resources/scss/app.scss', 'resources/js/app.js'])
 </head>
 

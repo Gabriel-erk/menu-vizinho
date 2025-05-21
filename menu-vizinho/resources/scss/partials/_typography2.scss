@@ -1,0 +1,22 @@
+// pasta partials por ser uma prática comum no scss, eles contêm partes pequenas do meu scss, como váriaveis, mixis, tipografia..
+// sobre o nome do arquivo, sem o "_" o scss tenta compila-lo como um arquivo css independente, quebrando a lógica de importação, e não como algo parcial do sistema, com "_" ele entende isso e só chama quando usado @import
+// ? base da escala para minhas fontes (utilizando escala modular aqui e padronizando tudo, com uma razão de crescimento de 1.25, pegarei esse valor que será elevado pelo valor correspondente daquele elemento (ex: h1 = $base-size * ($scale-ratio ** 6) // 3.8147 rem) e seguindo essa lógica para os outros elementos
+// aqui estou usando 1.25 de razão de crescimento, porém, é possível utilizar outros modelos para este calculo
+
+//Base da escala
+$base-size: 1rem; // equivale a 16px por padrão
+$scale-ratio: 1.125; //razão de crescimento
+
+// tamanhos de texto (escala modular)
+$font-size-body: $base-size; // 1 rem (16px)
+$font-size-h6: $base-size * $scale-ratio; // 1.25 rem (20px)
+// ! não é possível fazer exponenciação com ** em scss, é necessário utilizar função pow
+$font-size-h5: $base-size * pow($scale-ratio, 2); // 1.5625rem (25px)
+$font-size-h4: $base-size * pow($scale-ratio, 3); // 1.9531rem (31.25px)
+$font-size-h3: $base-size * pow($scale-ratio, 4); // 2.4414rem (39.06px)
+$font-size-h2: $base-size * pow($scale-ratio, 5); // 2.4414rem (39.06px)
+$font-size-h1: $base-size * pow($scale-ratio, 6); // 3.8147rem (61.04px)
+
+// Espaçamento vertical para títulos e textos (caso queira usar, para deixar uma distância padrão de um texto para outro - mantendo o texto mais organizado e fácil de ler, trazendo benefícios como legibilidade, hierarquia visual, consistencia e acessibilidade)
+$heading-margin-bottom: 0.5em;
+$paragraph-margin-bottom: 1em;

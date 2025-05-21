@@ -3,7 +3,7 @@
     <section id="sec-um" class="bg-primary p-3 d-lg-flex gap-lg-3">
 
         <div class="apresentacao_restaurante text-secondary mb-3">
-            <h5 class="fw-bold mb-3">Nós Convidamos você ao nosso restaurante</h5>
+            <h3 class="fw-bold mb-3">Nós Convidamos você ao nosso restaurante</h3>
             <p>Na Mr. Burger, a gente acredita que um bom lanche vai além do pão e carne. Usamos ingredientes
                 frescos, receitas especiais e aquele toque artesanal que faz a diferença. Tudo é feito com cuidado e
                 atenção pra que cada mordida seja uma experiência única.
@@ -30,9 +30,9 @@
                     Sobre nós
                 </p>
 
-                <h5 class="fw-bold mb-3">
+                <h3 class="fw-bold mb-3">
                     Hambúrgueres feitos com carinho, servidos com sabor de verdade.
-                </h5>
+                </h3>
             </div>
 
             <div id="paragrafos" class="text-light">
@@ -68,7 +68,7 @@
 
     <section id="sec-tres" class="bg-primary p-3 text-secondary ">
         <div id="titulos" class="text-center mb-5">
-            <h5 class="fw-bold">Nossos pratos mais vendidos</h5>
+            <h3 class="fw-bold">Nossos pratos mais vendidos</h3>
             <p>Pratos mais vendidos servindo comida deliciosa.</p>
         </div>
 
@@ -107,7 +107,7 @@
         </div>
 
         <div id="info-sec-quatro">
-            <h5 class="fw-bold text-dark">Comida saudável e fresca para você</h5>
+            <h3 class="fw-bold text-dark">Comida saudável e fresca para você</h3>
             <p class="text-light">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae corrupti quos quidem ipsam
                 quisquam facere officiis deserunt dolorem, exercitationem ipsum obcaecati perspiciatis, eos
@@ -126,7 +126,7 @@
 
     <section id="sec-cinco" class="bg-primary p-3">
         <div id="titulos" class="text-center text-secondary">
-            <h5>O que nossos clientes dizem?</h5>
+            <h3>O que nossos clientes dizem?</h3>
             <p>Pratos mais vendidos servindo comida deliciosa.</p>
         </div>
 
