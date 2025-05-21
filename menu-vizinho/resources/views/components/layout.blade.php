@@ -60,7 +60,7 @@
         <div class="container d-flex flex-column flex-lg-row justify-content-lg-between gap-3 ">
 
             <div id="info-rodape">
-                <h5 class="text-white">INFORMAÇÕES</h5>
+                <p class="text-white">INFORMAÇÕES</p>
                 <ul class="list-unstyled d-flex flex-column gap-2">
                     <li><a href="#" class="text-decoration-none text-white">Sobre nós</a></li>
                     <li><a href="#" class="text-decoration-none text-white">Contato</a></li>
@@ -70,7 +70,7 @@
             </div>
 
             <div id="info-rodape">
-                <h5 class="text-white">LINKS ÚTEIS</h5>
+                <p class="text-white">LINKS ÚTEIS</p>
                 <ul class="list-unstyled d-flex flex-column gap-2">
                     <li><a href="{{ route('home') }}" class="text-decoration-none text-white">Home</a></li>
                     <li><a href="{{ route('cardapio') }}" class="text-decoration-none text-white">Menu</a></li>
@@ -80,7 +80,7 @@
             </div>
 
             <div id="info-rodape">
-                <h5 class="text-white">BAIXE NOSSO APP</h5>
+                <p class="text-white">BAIXE NOSSO APP</p>
                 <ul class="list-unstyled d-flex flex-column gap-2">
                     <li><a href="#" class="text-decoration-none text-white">Explore nosso cardápio completo onde
                             estiver.
