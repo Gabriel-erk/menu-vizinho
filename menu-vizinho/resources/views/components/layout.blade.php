@@ -43,9 +43,12 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">CUPONS</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">CARRINHO</a>
-                        </li>
+                        {{-- se não tiver logado, não aparece --}}
+                        @auth
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">CARRINHO</a>
+                            </li>
+                        @endauth
                     </ul>
                 </div>
             </div>
