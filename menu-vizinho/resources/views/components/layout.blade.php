@@ -19,8 +19,8 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-md bg-primary navbar-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+            <div class="container-fluid px-lg-4">
+                <a class="navbar-brand" href="{{ route('home') }}">
                     <h1 class="m-0"><img class="d-block navbar-logo img-fluid"
                             src="{{ asset('assets/navbar/logo.png') }}" alt="Logo do restaurante Mr.Burger"></h1>
                 </a>
@@ -56,8 +56,18 @@
         {{ $slot }}
     </main>
 
-    <footer class="p-3 py-lg-5 bg-dark">
-        <div class="container d-flex flex-column flex-lg-row justify-content-lg-between gap-3 ">
+    <footer class="p-3 p-lg-5 bg-dark">
+        <div class="d-flex flex-column flex-lg-row justify-content-lg-between gap-3 ">
+
+            <div id="info-rodape">
+                <p class="text-white">INFORMAÇÕES</p>
+                <ul class="list-unstyled d-flex flex-column gap-2">
+                    <li><a href="#" class="text-decoration-none text-white">Sobre nós</a></li>
+                    <li><a href="#" class="text-decoration-none text-white">Contato</a></li>
+                    <li><a href="#" class="text-decoration-none text-white">Descontos</a></li>
+                    <li><a href="#" class="text-decoration-none text-white">Política e privacidade</a></li>
+                </ul>
+            </div>
 
             <div id="info-rodape">
                 <p class="text-white">INFORMAÇÕES</p>
@@ -97,7 +107,6 @@
                 </ul>
             </div>
         </div>
-
     </footer>
 </body>
 

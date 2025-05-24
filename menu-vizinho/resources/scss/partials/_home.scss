@@ -9,5 +9,13 @@
 }
 
 @media (min-width: 1025px) {
-    
+    .img_restaurante img,
+    .img_restaurante_sobre_nos img,
+    .img-sec-quatro img{
+        max-width: 50vw;
+    }
+
+    .img-sec-tres img {
+        max-width: 40vw;
+    }
 }
