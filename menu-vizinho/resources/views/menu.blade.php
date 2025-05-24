@@ -26,7 +26,7 @@
         </button>
     </div>
 
-    <div class="container">
+    <div class="p-3 p-lg-5">
         <div class="d-flex gap-2 mt-3">
             {{-- não precisa ser necessariamente um "button" para usar as classes btn btn-outline-primary etc. --}}
             <button type="button" class="btn btn-outline-primary rounded-pill">Lanches</button>

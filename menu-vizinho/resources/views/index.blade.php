@@ -96,8 +96,8 @@
 
         </div>
 
-        <div class="text-center">
-            <button type="button" class="btn btn-outline-secondary">Ver mais</button>
+        <div class="text-center mt-4">
+            <a class="btn btn-outline-secondary" href="{{ route('cardapio') }}">Ver mais</a>
         </div>
 
     </section>
