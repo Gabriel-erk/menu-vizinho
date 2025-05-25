@@ -18,38 +18,70 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-md bg-primary navbar-dark">
+        {{-- fixed-top para deixar ela acompanhando a página toda --}}
+        <nav class="navbar bg-primary navbar-dark">
             <div class="container-fluid px-lg-4">
                 <a class="navbar-brand" href="{{ route('home') }}">
                     <h1 class="m-0"><img class="d-block navbar-logo img-fluid"
                             src="{{ asset('assets/navbar/logo.png') }}" alt="Logo do restaurante Mr.Burger"></h1>
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+
+                <div id="navbar_desktop" class="d-none d-lg-block">
+                    <ul id="navbar_desktop" class="list-unstyled m-0 d-flex gap-5 align-items-center">
+                        <li><a href="#" class="text-secondary text-decoration-none">HOME</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none">CARDÁPIO</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none">OFERTAS</a></li>
+                        <li><a href="#" class="text-secondary text-decoration-none">CUPONS</a></li>
+                    </ul>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{{ route('home') }}">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ route('cardapio') }}">CARDÁPIO</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">OFERTAS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">CUPONS</a>
-                        </li>
-                        {{-- se não tiver logado, não aparece --}}
-                        @auth
+
+                <div class="offcanvas offcanvas-end bg-primary text-secondary" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Opções</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">CARRINHO</a>
+                                <a class="nav-link active" aria-current="page"
+                                    href="{{ route('home') }}">Home</a>
                             </li>
-                        @endauth
-                    </ul>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('cardapio') }}">Cardápio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Ofertas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Cupons</a>
+                            </li>
+                            <li class="nav-item d-flex gap-4">
+                                <a class="nav-link" href="#">Criar conta</a>
+                                <a class="btn btn-secondary" href="#">Entrar</a>
+                            </li>
+                            {{-- <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li> --}}
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
