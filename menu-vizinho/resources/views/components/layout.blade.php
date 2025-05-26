@@ -29,19 +29,28 @@
                 <div id="navbar_desktop" class="d-none d-lg-block">
                     <ul id="navbar_desktop" class="list-unstyled m-0 d-flex gap-5 align-items-center">
                         <li><a href="{{ route('home') }}" class="text-secondary text-decoration-none">HOME</a></li>
-                        <li><a href="{{ route('cardapio') }}" class="text-secondary text-decoration-none">CARDÁPIO</a></li>
+                        <li><a href="{{ route('cardapio') }}" class="text-secondary text-decoration-none">CARDÁPIO</a>
+                        </li>
                         <li><a href="#" class="text-secondary text-decoration-none">OFERTAS</a></li>
                         <li><a href="#" class="text-secondary text-decoration-none">CUPONS</a></li>
                     </ul>
                 </div>
 
                 <div class="d-none d-lg-flex gap-3">
+
                     <a href="#" class="btn btn-secondary">
                         <i class="fa-solid fa-user fs-4" style="color: #342F2E;"></i>
                     </a>
-                    <a href="#" class="btn btn-secondary">
+
+                    {{-- badge do bootstrap para fazer a parte de ficar os números do carinho --}}
+                    <a href="#" class="btn btn-secondary position-relative">
                         <i class="fa-solid fa-bag-shopping fs-4" style="color: #342F2E;"></i>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            99+
+                            <span class="visually-hidden">unread messages</span>
+                        </span>
                     </a>
+
                 </div>
 
                 {{-- quero o menu hamburger apareça apenas para mobile, pois não faz tanto sentido em colocar um desse para tão poucas opções no pc, no mobile faz mais sentido pois todas estarão lá, mas no pc, apenas sobre "minhas informações" q vai estar lá, ent é melhor já adaptar tudo para os ícones mesmo --}}
