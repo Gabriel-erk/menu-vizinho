@@ -10,6 +10,8 @@
 @import "partials/typography";
 // chamando o scss da home já aqui, pois o app.scss eu chamo em todos os blade da minha página
 @import "partials/home";
+// chamando o scss do produto, apenas para carregar as alterações da imagem dele
+@import "partials/product";
 
 // Agora você pode sobrescrever as variáveis
 $primary: #8C6342;  // cor primária

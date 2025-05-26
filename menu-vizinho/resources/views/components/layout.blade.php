@@ -28,14 +28,24 @@
 
                 <div id="navbar_desktop" class="d-none d-lg-block">
                     <ul id="navbar_desktop" class="list-unstyled m-0 d-flex gap-5 align-items-center">
-                        <li><a href="#" class="text-secondary text-decoration-none">HOME</a></li>
-                        <li><a href="#" class="text-secondary text-decoration-none">CARDÁPIO</a></li>
+                        <li><a href="{{ route('home') }}" class="text-secondary text-decoration-none">HOME</a></li>
+                        <li><a href="{{ route('cardapio') }}" class="text-secondary text-decoration-none">CARDÁPIO</a></li>
                         <li><a href="#" class="text-secondary text-decoration-none">OFERTAS</a></li>
                         <li><a href="#" class="text-secondary text-decoration-none">CUPONS</a></li>
                     </ul>
                 </div>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                <div class="d-none d-lg-flex gap-3">
+                    <a href="#" class="btn btn-secondary">
+                        <i class="fa-solid fa-user fs-4" style="color: #342F2E;"></i>
+                    </a>
+                    <a href="#" class="btn btn-secondary">
+                        <i class="fa-solid fa-bag-shopping fs-4" style="color: #342F2E;"></i>
+                    </a>
+                </div>
+
+                {{-- quero o menu hamburger apareça apenas para mobile, pois não faz tanto sentido em colocar um desse para tão poucas opções no pc, no mobile faz mais sentido pois todas estarão lá, mas no pc, apenas sobre "minhas informações" q vai estar lá, ent é melhor já adaptar tudo para os ícones mesmo --}}
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -50,8 +60,7 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page"
-                                    href="{{ route('home') }}">Home</a>
+                                <a class="nav-link active" aria-current="page" href="{{ route('home') }}">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('cardapio') }}">Cardápio</a>
@@ -143,6 +152,8 @@
             </div>
         </div>
     </footer>
+    {{-- chamando dependência de ícones --}}
+    <script src="https://kit.fontawesome.com/c3faedaa29.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

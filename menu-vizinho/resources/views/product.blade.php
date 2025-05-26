@@ -1,8 +1,11 @@
 <x-layout title="Mr.Burger - Produto">
-    <div id="produto" class="p-4">
+    <div id="produto" class="p-4 p-lg-5">
 
-        <img class="img-fluid" src="{{ asset('assets/cardapio/produtos/hamburger_cardapio.png') }}"
-            alt="imagem do produto Mr.King Duplo">
+        <div id="img-produto-cardapio">
+            <img class="img-fluid d-block"
+                src="{{ asset('assets/cardapio/produtos/hamburger_cardapio.png') }}"
+                alt="imagem do produto Mr.King Duplo">
+        </div>
 
         <h3 class="text-primary fw-bold">MR.KING DUPLO</h3>
         <span class="text-light fw-medium">Descrição detalhada do produto - lorem ipsum idolr apset aaa escrição
@@ -12,7 +15,7 @@
     </div>
 
     <section>
-        <div class="d-flex align-items-center justify-content-between p-4 bg-secondary">
+        <div class="d-flex align-items-center justify-content-between p-4 p-lg-5 bg-secondary">
             <span class="fw-medium fw-light">Informações adicionais</span>
             <button type="button"
                 class="btn btn-primary rounded-circle p-1 d-flex align-items-center justify-content-center">
@@ -21,7 +24,7 @@
             </button>
         </div>
 
-        <div class="d-flex align-items-center justify-content-between p-4 mt-4 bg-secondary">
+        <div class="d-flex align-items-center justify-content-between p-4 p-lg-5 mt-4 bg-secondary">
             <span class="fw-medium fw-light">Adicionais</span>
             <button type="button"
                 class="btn btn-primary rounded-circle p-1 d-flex align-items-center justify-content-center">
@@ -29,7 +32,7 @@
                     alt="Adicionar ao Carrinho">
             </button>
         </div>
-       
+
     </section>
 
     <div class="text-center mt-5 mb-4">
