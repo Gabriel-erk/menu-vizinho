@@ -12,6 +12,7 @@
 @import "partials/home";
 // chamando o scss do produto, apenas para carregar as alterações da imagem dele
 @import "partials/product";
+@import "partials/login";
 
 // Agora você pode sobrescrever as variáveis
 $primary: #8C6342;  // cor primária
