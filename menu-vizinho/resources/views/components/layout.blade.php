@@ -119,7 +119,7 @@
                     <li><a href="#" class="text-decoration-none text-white">Sobre nós</a></li>
                     <li><a href="#" class="text-decoration-none text-white">Contato</a></li>
                     <li><a href="#" class="text-decoration-none text-white">Descontos</a></li>
-                    <li><a href="#" class="text-decoration-none text-white">Política e privacidade</a></li>
+                    <li><a href="{{ route('politicas') }}" class="text-decoration-none text-white">Política e privacidade</a></li>
                 </ul>
             </div>
 

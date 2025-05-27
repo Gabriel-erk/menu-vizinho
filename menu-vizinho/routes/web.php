@@ -24,3 +24,7 @@ Route::get('/login', function(){
 Route::get('/cadastro', function(){
     return view('register');
 })->name('cadastro');
+
+Route::get('/politicas-de-privacidade', function(){
+    return view('privacy-policies');
+})->name('politicas');
