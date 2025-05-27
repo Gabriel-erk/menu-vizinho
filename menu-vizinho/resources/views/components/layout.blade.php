@@ -116,41 +116,41 @@
             <div id="info-rodape">
                 <p class="text-white">INFORMAÇÕES</p>
                 <ul class="list-unstyled d-flex flex-column gap-2">
-                    <li><a href="#" class="text-decoration-none text-white">Sobre nós</a></li>
-                    <li><a href="#" class="text-decoration-none text-white">Contato</a></li>
-                    <li><a href="#" class="text-decoration-none text-white">Descontos</a></li>
-                    <li><a href="{{ route('politicas') }}" class="text-decoration-none text-white">Política e privacidade</a></li>
+                    <li><a href="#" class="text-decoration-none text-white fw-light">Sobre nós</a></li>
+                    <li><a href="#" class="text-decoration-none text-white fw-light">Contato</a></li>
+                    <li><a href="#" class="text-decoration-none text-white fw-light">Descontos</a></li>
+                    <li><a href="{{ route('politicas') }}" class="text-decoration-none text-white fw-light">Política e privacidade</a></li>
                 </ul>
             </div>
 
             <div id="info-rodape">
                 <p class="text-white">INFORMAÇÕES</p>
                 <ul class="list-unstyled d-flex flex-column gap-2">
-                    <li><a href="#" class="text-decoration-none text-white">Sobre nós</a></li>
-                    <li><a href="#" class="text-decoration-none text-white">Contato</a></li>
-                    <li><a href="#" class="text-decoration-none text-white">Descontos</a></li>
-                    <li><a href="#" class="text-decoration-none text-white">Política e privacidade</a></li>
+                    <li><a href="#" class="text-decoration-none text-white fw-light">Sobre nós</a></li>
+                    <li><a href="#" class="text-decoration-none text-white fw-light">Contato</a></li>
+                    <li><a href="#" class="text-decoration-none text-white fw-light">Descontos</a></li>
+                    <li><a href="#" class="text-decoration-none text-white fw-light">Política e privacidade</a></li>
                 </ul>
             </div>
 
             <div id="info-rodape">
                 <p class="text-white">LINKS ÚTEIS</p>
                 <ul class="list-unstyled d-flex flex-column gap-2">
-                    <li><a href="{{ route('home') }}" class="text-decoration-none text-white">Home</a></li>
-                    <li><a href="{{ route('cardapio') }}" class="text-decoration-none text-white">Menu</a></li>
-                    <li><a href="#" class="text-decoration-none text-white">Cupons</a></li>
-                    <li><a href="#" class="text-decoration-none text-white">Área do usuário</a></li>
+                    <li><a href="{{ route('home') }}" class="text-decoration-none text-white fw-light">Home</a></li>
+                    <li><a href="{{ route('cardapio') }}" class="text-decoration-none text-white fw-light">Menu</a></li>
+                    <li><a href="#" class="text-decoration-none text-white fw-light">Cupons</a></li>
+                    <li><a href="#" class="text-decoration-none text-white fw-light">Área do usuário</a></li>
                 </ul>
             </div>
 
             <div id="info-rodape">
                 <p class="text-white">BAIXE NOSSO APP</p>
                 <ul class="list-unstyled d-flex flex-column gap-2">
-                    <li><a href="#" class="text-decoration-none text-white">Explore nosso cardápio completo onde
+                    <li><a href="#" class="text-decoration-none text-white fw-light">Explore nosso cardápio completo onde
                             estiver.
                         </a></li>
 
-                    <li><a href="#" class="text-decoration-none text-white">Receba promoções exclusivas
+                    <li><a href="#" class="text-decoration-none text-white fw-light">Receba promoções exclusivas
                             diretamente no seu celular.</a></li>
 
                     <li id="icones-dowload" class="d-flex gap-2">
