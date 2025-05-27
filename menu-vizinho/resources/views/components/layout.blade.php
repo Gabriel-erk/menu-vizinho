@@ -36,9 +36,10 @@
                     </ul>
                 </div>
 
+                {{-- icones que aparecerão na navbar do desktop --}}
                 <div class="d-none d-lg-flex gap-3">
 
-                    <a href="#" class="btn btn-secondary">
+                    <a href="{{ route('login') }}" class="btn btn-secondary">
                         <i class="fa-solid fa-user fs-4" style="color: #342F2E;"></i>
                     </a>
 
@@ -82,7 +83,7 @@
                             </li>
                             <li class="nav-item d-flex gap-4">
                                 <a class="nav-link" href="#">Criar conta</a>
-                                <a class="btn btn-secondary" href="#">Entrar</a>
+                                <a class="btn btn-secondary" href="{{ route('login') }}">Entrar</a>
                             </li>
                             {{-- <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button"
