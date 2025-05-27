@@ -1,4 +1,4 @@
-<x-layout title="Mr.Burger - Login">
+<x-layout title="Mr.Burger - Cadastro">
 
     <div class="p-3">
 
@@ -8,7 +8,7 @@
         </div>
 
         <div class="titulos mt-4">
-            <h3 class="fw-bold">Seja bem vindo de volta!</h3>
+            <h3 class="fw-bold">Criando sua conta!</h3>
             <p>Um ótimo dia começa por aqui. Um dia de novas vitórias.
                 Registre-se e comece a comprar.</p>
         </div>
@@ -24,13 +24,14 @@
                 <label for="inputPassword4" class="form-label">Senha</label>
                 <input type="password" class="form-control" id="inputPassword4">
             </div>
-            
-            <div class="col-12 d-flex justify-content-end">
-                <a href="" class="text-decoration-none text-light fs-6">Esqueceu a senha?</a>
+
+            <div class="col-12">
+                <label for="inputConfirmPassword4" class="form-label">Confirmar a senha</label>
+                <input type="password" class="form-control" id="inputConfirmPassword4">
             </div>
 
             <div class="col-12 mt-4">
-                <button type="submit" class="btn btn-primary w-100">Entrar</button>
+                <button type="submit" class="btn btn-primary w-100">Registrar</button>
             </div>
         </form>
 
@@ -44,19 +45,21 @@
 
         <div class="mt-2 d-flex flex-column gap-3">
 
-            <a href="#" class="login-register-social-media btn btn-secondary d-flex justify-content-center align-items-center gap-2 py-2">
+            <a href="#"
+                class="login-register-social-media btn btn-secondary d-flex justify-content-center align-items-center gap-2 py-2">
                 <img src="{{ asset('assets/login/google_icon.svg') }}" alt="ícone do Google">
-                <p class="text-light m-0">Entrar com Google</p>
+                <p class="text-light m-0">Registrar com Google</p>
             </a>
 
-            <a href="#" class="login-register-social-media btn btn-secondary d-flex justify-content-center align-items-center gap-2 py-2">
+            <a href="#"
+                class="login-register-social-media btn btn-secondary d-flex justify-content-center align-items-center gap-2 py-2">
                 <img src="{{ asset('assets/login/Facebook_Logo_Primary.png') }}" alt="ícone do Google">
-                <p class="text-light m-0">Entrar com Facebook</p>
+                <p class="text-light m-0">Registrar com Facebook</p>
             </a>
-            
+
         </div>
 
-        <p class="mt-4 text-center">Ainda não possui uma conta?<a href="{{ route('cadastro') }}">Registre-se</a></p>
+        <p class="mt-4 text-center">Já possui uma conta? <a href="{{ route('login') }}">Entre</a></p>
 
     </div>
 

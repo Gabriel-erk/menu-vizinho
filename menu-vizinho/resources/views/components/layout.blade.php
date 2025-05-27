@@ -82,7 +82,7 @@
                                 <a class="nav-link" href="#">Cupons</a>
                             </li>
                             <li class="nav-item d-flex gap-4">
-                                <a class="nav-link" href="#">Criar conta</a>
+                                <a class="nav-link" href="{{ route('cadastro') }}">Criar conta</a>
                                 <a class="btn btn-secondary" href="{{ route('login') }}">Entrar</a>
                             </li>
                             {{-- <li class="nav-item dropdown">
