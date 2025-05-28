@@ -1,0 +1,261 @@
+<?php if (isset($component)) { $__componentOriginal23a33f287873b564aaf305a1526eada4 = $component; } ?>
+<?php if (isset($attributes)) { $__attributesOriginal23a33f287873b564aaf305a1526eada4 = $attributes; } ?>
+<?php $component = Illuminate\View\AnonymousComponent::resolve(['view' => 'components.layout','data' => ['title' => 'Mr.Burger - Sua Lanchonete Local!']] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? $attributes->all() : [])); ?>
+<?php $component->withName('layout'); ?>
+<?php if ($component->shouldRender()): ?>
+<?php $__env->startComponent($component->resolveView(), $component->data()); ?>
+<?php if (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag): ?>
+<?php $attributes = $attributes->except(\Illuminate\View\AnonymousComponent::ignoredParameterNames()); ?>
+<?php endif; ?>
+<?php $component->withAttributes(['title' => 'Mr.Burger - Sua Lanchonete Local!']); ?>
+
+    <section id="sec-um" class="bg-primary p-3 p-lg-5 d-lg-flex gap-lg-3">
+
+        <div class="apresentacao_restaurante text-secondary mb-3">
+            <h3 class="fw-bold mb-3">Nós Convidamos você ao nosso restaurante</h3>
+            <p>Na Mr. Burger, a gente acredita que um bom lanche vai além do pão e carne. Usamos ingredientes
+                frescos, receitas especiais e aquele toque artesanal que faz a diferença. Tudo é feito com cuidado e
+                atenção pra que cada mordida seja uma experiência única.
+            </p>
+            <p>
+                Na Mr. Burger, a gente acredita que um bom lanche vai além do pão e carne tudo é feito com cuidado e
+                atenção pra que cada mordida seja uma experiência única.
+            </p>
+            <button class="btn btn-secondary text-primary fw-medium">
+                Explorar Mais
+            </button>
+        </div>
+
+        <div class="img_restaurante">
+            <img class="img-fluid rounded-2" src="<?php echo e(asset('assets/home/secao_um/img-teste-home.jpg')); ?>" alt="">
+        </div>
+
+    </section>
+
+    <section id="sec-dois" class="bg-secondary p-3 p-lg-5 d-lg-flex gap-lg-3">
+        <div class="texto-sobre-nos-restaurante">
+            <div id="titulos" class="text-dark">
+                <p class="fw-bold mb-1">
+                    Sobre nós
+                </p>
+
+                <h3 class="fw-bold mb-3">
+                    Hambúrgueres feitos com carinho, servidos com sabor de verdade.
+                </h3>
+            </div>
+
+            <div id="paragrafos" class="text-light">
+                <p>
+                    Na Mr. Burger, a gente acredita que um bom lanche vai além do pão e carne. Usamos ingredientes
+                    frescos, receitas especiais e aquele toque artesanal que faz a diferença. Tudo é feito com
+                    cuidado e
+                    atenção pra que cada mordida seja uma experiência única.
+                </p>
+
+                <p>
+                    Na Mr. Burger, a gente acredita que um bom lanche vai além do pão e carne. Usamos ingredientes
+                    frescos, receitas especiais e aquele toque artesanal que faz a diferença. Tudo é feito com
+                    cuidado e
+                    atenção pra que cada mordida seja uma experiência única.
+                </p>
+
+                <p class="d-none d-lg-block">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also th.
+                </p>
+
+            </div>
+        </div>
+
+        <div class="img_restaurante_sobre_nos">
+            <img class="img-fluid rounded-2" src="<?php echo e(asset('assets/home/sobre_nos/cooking.jpg')); ?>" alt="">
+        </div>
+    </section>
+
+    <section id="sec-tres" class="bg-primary p-3 p-lg-5 text-secondary ">
+        <div id="titulos" class="text-center mb-5">
+            <h3 class="fw-bold">Nossos pratos mais vendidos</h3>
+            <p>Pratos mais vendidos servindo comida deliciosa.</p>
+        </div>
+
+        <div id="mais-vendidos" class="d-flex flex-column flex-lg-row align-items-center">
+
+            <div class="text-center w-75 mb-3">
+                <div class="img-sec-tres">
+                    <img class="img-fluid rounded-circle"
+                        src="<?php echo e(asset('assets/home/pratos_populares/hamburger-sec-pratos-populares.jpg')); ?>"
+                        alt="Hambúrger de carne com bacon e cheddar.">
+                </div>
+                <p class="mb-1 mt-2 fw-bold">MR.CHIKEN DUPLO</p>
+                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elitararweraawrw.</span>
+            </div>
+
+            <div class="text-center w-75 mb-3">
+
+                <div class="img-sec-tres">
+                    <img class="img-fluid rounded-circle"
+                        src="<?php echo e(asset('assets/home/pratos_populares/hamburger-sec-pratos-populares.jpg')); ?>"
+                        alt="Hambúrger de carne com bacon e cheddar.">
+                </div>
+
+                <p class="mb-1 mt-2 fw-bold">MR.CHIKEN DUPLO</p>
+                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elitararweraawrw.</span>
+            </div>
+
+        </div>
+
+        <div class="text-center mt-4">
+            <a class="btn btn-outline-secondary" href="<?php echo e(route('cardapio')); ?>">Ver mais</a>
+        </div>
+
+    </section>
+
+    <section id="sec-quatro" class="bg-secondary p-3 p-lg-5 d-lg-flex gap-lg-3">
+        <div class="img-sec-quatro mb-3">
+            <img class="img-fluid rounded-2"src="<?php echo e(asset('assets/home/secao_bonus/comidas-secao-bonus.jpg')); ?>"
+                alt="Prato com comidas diversas e saborosas">
+        </div>
+
+        <div id="info-sec-quatro">
+            <h3 class="fw-bold text-dark">Comida saudável e fresca para você</h3>
+            <p class="text-light">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae corrupti quos quidem ipsam
+                quisquam facere officiis deserunt dolorem, exercitationem ipsum obcaecati perspiciatis, eos
+                molestiae corporis, doloribus laborum eaque sint id.
+            </p>
+            <p class="text-light">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae corrupti quos quidem ipsam
+                quisquam facere officiis deserunt dolorem, exercitationem ipsum obcaecati perspiciatis, eos
+                molestiae corporis, doloribus laborum eaque sint id.
+            </p>
+            <p class="text-light d-none d-lg-block">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae corrupti quos quidem ipsam
+                quisquam facere officiis deserunt dolorem, exercitationem ipsum obcaecati perspiciatis, eos
+                molestiae corporis, doloribus laborum eaque sint idase ipsum uymyu umu uy yquweiq oqueyqy uoo
+                quyqieioquuqueioqueoiuqiou.
+            </p>
+
+            <button class="btn btn-primary">Saber Mais</button>
+        </div>
+
+    </section>
+
+    <section id="sec-cinco" class="bg-primary p-3 p-lg-5">
+        <div id="titulos" class="text-center text-secondary">
+            <h3>O que nossos clientes dizem?</h3>
+            <p>Pratos mais vendidos servindo comida deliciosa.</p>
+        </div>
+
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            
+            <div class="carousel-inner d-flex gap-3">
+                <div class="carousel-item active text-center bg-white rounded-2 py-3 shadow">
+                    <div id="img-feedback" class="mb-3">
+                        <img class="img-fluid border border-5 border-secondary rounded-circle"
+                            src="<?php echo e(asset('assets/home/feedback/user_feedback.jpg')); ?>"
+                            alt="Imagem do usuário reponsável por avaliação.">
+                    </div>
+
+                    <div id="info-user-feedback" class="mt-3">
+                        <h6 class="fw-bold text-dark">Davi Fdp</h6>
+                        <p class="text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. quo
+                            expedita
+                            tempore.</p>
+                    </div>
+
+                    <div id="data-quantidade-feedback">
+                        <p class="mb-2">25/06/2026</p>
+                        <div id="estrelas" class="d-flex justify-content-center gap-1">
+                            <img src="<?php echo e(asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg')); ?>"
+                                alt="icone de estrela para avaliação">
+                            <img src="<?php echo e(asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg')); ?>"
+                                alt="icone de estrela para avaliação">
+                            <img src="<?php echo e(asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg')); ?>"
+                                alt="icone de estrela para avaliação">
+                            <img src="<?php echo e(asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg')); ?>"
+                                alt="icone de estrela para avaliação">
+                            <img src="<?php echo e(asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg')); ?>"
+                                alt="icone de estrela para avaliação">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item text-center bg-white rounded-2 py-3 shadow">
+                    <div id="img-feedback" class="mb-3">
+                        <img class="img-fluid border border-5 border-secondary rounded-circle"
+                            src="<?php echo e(asset('assets/home/feedback/user_feedback.jpg')); ?>"
+                            alt="Imagem do usuário reponsável por avaliação.">
+                    </div>
+
+                    <div id="info-user-feedback" class="mt-3">
+                        <h6 class="fw-bold text-dark">Davi Fdp</h6>
+                        <p class="text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. quo
+                            expedita
+                            tempore.</p>
+                    </div>
+
+                    <div id="data-quantidade-feedback">
+                        <p class="mb-2">25/06/2026</p>
+                        <div id="estrelas" class="d-flex justify-content-center gap-1">
+                            <img src="<?php echo e(asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg')); ?>"
+                                alt="icone de estrela para avaliação">
+                            <img src="<?php echo e(asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg')); ?>"
+                                alt="icone de estrela para avaliação">
+                            <img src="<?php echo e(asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg')); ?>"
+                                alt="icone de estrela para avaliação">
+                            <img src="<?php echo e(asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg')); ?>"
+                                alt="icone de estrela para avaliação">
+                            <img src="<?php echo e(asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg')); ?>"
+                                alt="icone de estrela para avaliação">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item text-center bg-white rounded-2 py-3 shadow">
+                    <div id="img-feedback" class="mb-3">
+                        <img class="img-fluid border border-5 border-secondary rounded-circle"
+                            src="<?php echo e(asset('assets/home/feedback/user_feedback.jpg')); ?>"
+                            alt="Imagem do usuário reponsável por avaliação.">
+                    </div>
+
+                    <div id="info-user-feedback" class="mt-3">
+                        <h6 class="fw-bold text-dark">Davi Fdp</h6>
+                        <p class="text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. quo
+                            expedita
+                            tempore.</p>
+                    </div>
+
+                    <div id="data-quantidade-feedback">
+                        <p class="mb-2">25/06/2026</p>
+                        <div id="estrelas" class="d-flex justify-content-center gap-1">
+                            <img src="<?php echo e(asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg')); ?>"
+                                alt="icone de estrela para avaliação">
+                            <img src="<?php echo e(asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg')); ?>"
+                                alt="icone de estrela para avaliação">
+                            <img src="<?php echo e(asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg')); ?>"
+                                alt="icone de estrela para avaliação">
+                            <img src="<?php echo e(asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg')); ?>"
+                                alt="icone de estrela para avaliação">
+                            <img src="<?php echo e(asset('assets/home/feedback/icones/avaliacao_feedbacks-raw.svg')); ?>"
+                                alt="icone de estrela para avaliação">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+ <?php echo $__env->renderComponent(); ?>
+<?php endif; ?>
+<?php if (isset($__attributesOriginal23a33f287873b564aaf305a1526eada4)): ?>
+<?php $attributes = $__attributesOriginal23a33f287873b564aaf305a1526eada4; ?>
+<?php unset($__attributesOriginal23a33f287873b564aaf305a1526eada4); ?>
+<?php endif; ?>
+<?php if (isset($__componentOriginal23a33f287873b564aaf305a1526eada4)): ?>
+<?php $component = $__componentOriginal23a33f287873b564aaf305a1526eada4; ?>
+<?php unset($__componentOriginal23a33f287873b564aaf305a1526eada4); ?>
+<?php endif; ?>
+<?php /**PATH C:\dev\menu-vizinho\menu-vizinho\resources\views/index.blade.php ENDPATH**/ ?>
