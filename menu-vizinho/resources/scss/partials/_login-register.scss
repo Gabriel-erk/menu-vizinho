@@ -4,6 +4,13 @@
 
 @media (min-width: 1025px) {
     .img-login img {
+        // largura para não ultrapassar o respeito da outra div
         max-width: 45vw;
+        // altura para ficar de igual para igual com o conteúdo da div do lado
+        height: 100%;
+    }
+
+    .login-register-social-media img {
+        width: 2vw;
     }
 }

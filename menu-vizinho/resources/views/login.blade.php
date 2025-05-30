@@ -1,6 +1,6 @@
 <x-layout title="Mr.Burger - Login">
 
-    <div class="p-3 d-lg-flex justify-content-between w-100">
+    <div class="p-3 d-lg-flex justify-content-between">
 
         <div class="img-login d-lg-none">
             <img class="img-fluid rounded-2 shadow" src="{{ asset('assets/login/restaurant-login.jpg') }}"
