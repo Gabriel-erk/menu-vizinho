@@ -1,7 +1,9 @@
-// .img-login img{
-//     max-width: 50vw;
-// }
-
 .login-register-social-media img {
     width: 9vw;
+}
+
+@media (min-width: 1025px) {
+    .img-login img {
+        max-width: 45vw;
+    }
 }
