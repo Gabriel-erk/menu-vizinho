@@ -31,7 +31,7 @@
                         <li><a href="{{ route('home') }}" class="text-secondary text-decoration-none">HOME</a></li>
                         <li><a href="{{ route('cardapio') }}" class="text-secondary text-decoration-none">CARDÁPIO</a>
                         </li>
-                        <li><a href="#" class="text-secondary text-decoration-none">OFERTAS</a></li>
+                        <li><a href="{{ route('oferta') }}" class="text-secondary text-decoration-none">OFERTAS</a></li>
                         <li><a href="#" class="text-secondary text-decoration-none">CUPONS</a></li>
                     </ul>
                 </div>
@@ -76,7 +76,7 @@
                                 <a class="nav-link" href="{{ route('cardapio') }}">Cardápio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Ofertas</a>
+                                <a class="nav-link" href="{{ route('oferta') }}">Ofertas</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Cupons</a>

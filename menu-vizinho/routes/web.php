@@ -17,6 +17,10 @@ Route::get('/cardapio/produto', function () {
     return view('product');
 })->name('produto');
 
+Route::get('/ofertas', function() {
+    return view('offer');
+})->name('oferta');
+
 Route::get('/login', function(){
     return view('login');
 })->name('login');
