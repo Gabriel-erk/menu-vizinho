@@ -44,7 +44,7 @@
                             <h5 class="card-title text-primary">Mr.King Duplo</h5>
                             <p class="card-text text-light fw-medium">loreom aoeuramue rueamrueu ramrusjerua.</p>
                             <div class="d-flex justify-content-between align-items-center">
-                                <span class="text-light fw-medium">R$ 40,99</span>
+                                <h4 class="text-primary fw-bold">R$ 40,99</h4>
                                 <button type="button"
                                     class="btn btn-primary rounded-circle p-1 d-flex align-items-center justify-content-center">
                                     <img class="fs-1"
@@ -66,7 +66,7 @@
                             <h5 class="card-title text-primary">Mr.King Duplo</h5>
                             <p class="card-text text-light fw-medium">loreom aoeuramue rueamrueu ramrusjerua.</p>
                             <div class="d-flex justify-content-between align-items-center">
-                                <span class="text-light fw-medium">R$ 40,99</span>
+                                <h4 class="text-primary fw-bold">R$ 40,99</h4>
                                 <button type="button"
                                     class="btn btn-primary rounded-circle p-1 d-flex align-items-center justify-content-center">
                                     <img class="fs-1"
@@ -88,7 +88,7 @@
                             <h5 class="card-title text-primary">Mr.King Duplo</h5>
                             <p class="card-text text-light fw-medium">loreom aoeuramue rueamrueu ramrusjerua.</p>
                             <div class="d-flex justify-content-between align-items-center">
-                                <span class="text-light fw-medium">R$ 40,99</span>
+                                <h4 class="text-primary fw-bold">R$ 40,99</h4>
                                 <button type="button"
                                     class="btn btn-primary rounded-circle p-1 d-flex align-items-center justify-content-center">
                                     <img class="fs-1"
@@ -110,7 +110,7 @@
                             <h5 class="card-title text-primary">Mr.King Duplo</h5>
                             <p class="card-text text-light fw-medium">loreom aoeuramue rueamrueu ramrusjerua.</p>
                             <div class="d-flex justify-content-between align-items-center">
-                                <span class="text-light fw-medium">R$ 40,99</span>
+                                <h4 class="text-primary fw-bold">R$ 40,99</h4>
                                 <button type="button"
                                     class="btn btn-primary rounded-circle p-1 d-flex align-items-center justify-content-center">
                                     <img class="fs-1"
@@ -133,7 +133,7 @@
                             <h5 class="card-title text-primary">Mr.King Duplo</h5>
                             <p class="card-text text-light fw-medium">loreom aoeuramue rueamrueu ramrusjerua.</p>
                             <div class="d-flex justify-content-between align-items-center">
-                                <span class="text-light fw-medium">R$ 40,99</span>
+                                <h4 class="text-primary fw-bold">R$ 40,99</h4>
                                 <button type="button"
                                     class="btn btn-primary rounded-circle p-1 d-flex align-items-center justify-content-center">
                                     <img class="fs-1"
