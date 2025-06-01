@@ -145,6 +145,29 @@
                     </div>
                 </div>
 
+                <div class="col-12 col-md-6 col-lg-4 pb-4">
+                    <div class="card shadow-sm">
+                        <a href="{{ route('produto') }}">
+                            <img class="img-fluid"
+                                src="{{ asset('assets/cardapio/produtos/hamburger_cardapio.png') }}"
+                                alt="Imagem do produto MR.KING DUPLO">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Mr.King Duplo</h5>
+                            <p class="card-text text-light fw-medium">loreom aoeuramue rueamrueu ramrusjerua.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h4 class="text-primary fw-bold">R$ 40,99</h4>
+                                <button type="button"
+                                    class="btn btn-primary rounded-circle p-1 d-flex align-items-center justify-content-center">
+                                    <img class="fs-1"
+                                        src="{{ asset('assets/cardapio/produtos/icones/add_carrinho.svg') }}"
+                                        alt="Adicionar ao Carrinho">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
 

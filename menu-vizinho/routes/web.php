@@ -17,18 +17,18 @@ Route::get('/cardapio/produto', function () {
     return view('product');
 })->name('produto');
 
-Route::get('/ofertas', function() {
+Route::get('/ofertas', function () {
     return view('offer');
 })->name('oferta');
 
-Route::get('/login', function(){
+Route::get('/login', function () {
     return view('login');
 })->name('login');
 
-Route::get('/cadastro', function(){
+Route::get('/cadastro', function () {
     return view('register');
 })->name('cadastro');
 
-Route::get('/politicas-de-privacidade', function(){
+Route::get('/politicas-de-privacidade', function () {
     return view('privacy-policies');
 })->name('politicas');
